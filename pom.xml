@@ -7,12 +7,25 @@
     <groupId>lk.ijse.spring</groupId>
     <artifactId>TailorShop</artifactId>
     <version>1.0.0</version>
+    <packaging>
+        war
+    </packaging>
 
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
         <maven.compiler.target>16</maven.compiler.target>
-
-        
     </properties>
+
+    <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.5.0.Final</version>
+        </dependency>
+
+
+    </dependencies>
 
 </project>
